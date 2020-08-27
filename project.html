@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<!------Head----------->
+<head>
+  <title>Codether</title>
+  <link href="icon2.png" rel="icon">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!------Style----------->
+  <style>
+  
+  form{
+   margin-top: 3.125em;
+    border-radius: 1em;
+   background-color: rgb(0, 0, 0,0.5);
+   width: 50%;
+   margin-bottom: 2em;
+  }
+
+  input[type=text], input[type=password], input[type=date] {
+   width: 100%;
+   padding: 0.9375em;
+   margin: 0.3125em 0 1.375em 0;
+   display: inline-block;
+   border: none;
+   background: #f1f1f1;
+   font-family: Exo;
+  }
+
+  input[type=text]:focus, input[type=password]:focus {
+   background-color: #ddd;
+   outline: none;
+  }
+
+  select{
+      width: 100%;
+   padding: 0.9375em;
+   margin: 0.3125em 0 1.375em 0;
+   display: inline-block;
+   border: none;
+   color: #343635;
+   font-family: Exo;
+   background: #f1f1f1;
+
+  }
+
+  hr {
+   border: 0.0625em solid #f1f1f1;
+   margin-bottom: 1.5625em;
+  }
+
+
+  
+  button {
+     background-color: orange;
+   color: white;
+   padding: 0.875em 1.25em;
+   margin: 0.5em 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   opacity: 0.9;
+
+  font-family: exo;
+  }
+
+  button:hover {
+   opacity:1;
+  }
+
+
+  .container {
+   padding: 1em;
+   text-align: left;
+  }
+
+  }
+
+  </style>
+<!------Style----------->
+
+</head>
+
+<!------Body----------->
+<body>
+  <div class="bg"></div>
+  <div class="bg bg2"></div>
+  <div class="bg bg3"></div>
+  
+  <!------Header----------->
+  <header>
+    <div class="row">
+
+      <!------NavBar----------->
+      <div class="navbar col-12">
+        <div class="webname col-m-12 col-8">
+          <h1>Codether</h1>
+        </div>
+        <ul class=" col-m-12 col-4">
+          <li>
+            <a href="codether.html">Home</a>
+          </li>
+          <li>
+            <a href="codether.html#aboutsect">About</a>
+          </li>
+          <li>
+            <a href="register.php">Register</a>
+          </li>
+          <li>
+            <a href="signin.php">Log In</a>
+          </li>
+          <li>
+            <a href="codether.html#contactsect">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+<!------Div for Align----------->
+  <div class="col-3"></div>
+
+  <!------Form----------->
+  <form action="/action_page.php" class="col-m-12 col-6" style="border:0.0625em solid #ccc">
+    <div class="container">
+      <h1 style="text-align: center;">Project</h1>
+      <hr>
+      <label for="pname"><b>Project Name</b></label> <input name="pname" placeholder="Enter Project Name" required="" type="text">
+
+      <!------DropDown----------->
+      <label for="type"><b>Project Type</b></label> <select id="cars">
+        <option value="ma">
+          Mobile Application
+        </option>
+        <option value="wa">
+          Web Application
+        </option>
+        <option value="da">
+          Desktop Application
+        </option>
+        <option value="db">
+          Database
+        </option>
+        <option value="gm">
+          Game
+        </option>
+      </select> 
+       <!------DropDown----------->
+      <label for="lang"><b>Language</b></label> <select id="cars">
+        <option value="py">
+          Python
+        </option>
+        <option value="java">
+          Java
+        </option>
+        <option value="c">
+          C
+        </option>
+        <option value="ruby">
+          Ruby
+        </option>
+        <option value="cpp">
+          C++
+        </option>
+        <option value="swift">
+          Swift
+        </option>
+      </select> 
+     
+        <label for="team"><b>Team Members</b></label> <input name="team" placeholder="Add Team Members" required="" type="text">
+      <div>
+         <!------Button----------->
+        <button class="createbtn" type="submit">Create</button>
+      </div>
+    </div>
+  </form>
+
+<!------Footer----------->
+  <footer class="col-12 col-m-12" id="contactsect">
+    <div class="row">
+      <h1>Contact Us</h1>
+
+        <!------Table1----------->
+      <div class=" col-8 tab1">
+        <table>
+          <tr>
+            <td><img src="add.png"></td>
+            <td>Silicon Valley<br>
+            California, USA</td>
+          </tr>
+          <tr>
+            <td><img src="cont.png"></td>
+            <td>408-920-5006</td>
+          </tr>
+          <tr>
+            <td><img src="email.png"></td>
+            <td>fzulfiqar@codether.co.uk</td>
+          </tr>
+        </table>
+      </div>
+
+        <!------Table2----------->
+      <div class=" col-4 tab2">
+        <table>
+          <tr>
+            <td><img src="fb.png"></td>
+            <td>codether@facebook</td>
+          </tr>
+          <tr>
+            <td><img src="twi.png"></td>
+            <td>codether@twitter</td>
+          </tr>
+          <tr>
+            <td><img src="link.png"></td>
+            <td>codether@linkedin</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

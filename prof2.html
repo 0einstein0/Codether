@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<!------Head----------->
+<head>
+  <title>Codether</title>
+  <link href="icon2.png" rel="icon">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!------Style----------->
+  <style>
+
+
+   @media only screen and (max-width: 780px) {
+   /* For mob: */
+   .col-m-1 {width: 8.33%;}
+   .col-m-2 {width: 16.66%;}
+   .col-m-3 {width: 25%;}
+   .col-m-4 {width: 33.33%;}
+   .col-m-5 {width: 41.66%;}
+   .col-m-6 {width: 50%;}
+   .col-m-7 {width: 58.33%;}
+   .col-m-8 {width: 66.66%;}
+   .col-m-9 {width: 75%;}
+   .col-m-10 {width: 83.33%;}
+   .col-m-11 {width: 91.66%;}
+   .col-m-12 {width: 100%;}
+  .name{
+   position: relative;
+   margin-top:20em;
+   text-align: center;
+  left: 15em;
+  }
+  .user img{
+   position: relative;
+   margin-top:-10em;
+  }
+  .mproj{
+    position: relative;
+   top: -3.4em;
+  }
+  .projs{
+   margin-left:-5em;
+
+  }
+  .extra img{
+   float: left;
+  margin-left: -2em;
+  }
+
+  .interest ul{
+   font-size:0.8em; 
+   margin-top: -1em;
+   margin-left: -4em;
+   margin-right: 8em;
+  }
+  .projs p{
+   position: relative;
+   top: -2em;
+   margin-left: 1em;
+  }
+  .extra{
+   margin-top:-6em;
+   font-size: 0.7em;
+  }
+   #detail{
+     clear: both;
+  display: none;
+   }
+   .userside{
+
+  position: relative;
+  text-align: center;
+  left:-3em;
+   }
+  }
+
+
+  body{
+     
+  background: rgb(88,24,69);
+  background: radial-gradient(circle, rgba(88,24,69,1) 0%, rgba(199,0,57,1) 52%, rgba(88,24,69,1) 100%); 
+  }
+
+   #detail {
+   padding: 1.3em;
+  border-radius: 5px;
+     float: right;
+     padding-right: 5em;
+     margin: 0;
+     width: 22%;
+     height: 49em;
+     margin-top: -6em;
+     font-size: 1.04em;
+     background-color: #272822;
+  }
+
+  #central{
+    padding: 1.3em;
+    border-radius: 5px;
+    border:0.1em solid gray;color: white;
+     padding-right: 5em;
+     margin: 0;
+     
+     width: 55%;
+     height: 38em;
+     margin-top: 5em;
+     margin-left: 2em;
+     font-size: 1.04em;
+     background-color: #272822;
+  }
+
+  .profile{
+   width: 100%;
+
+  }
+
+  .userside {
+
+     background: #161816;
+     height: 60em;
+     padding-left: 2em;
+     padding-right: 2em;
+     border-radius: 10px;
+     margin-bottom:4em;
+     margin-left: 3em;
+      box-shadow: 10px 10px 16px black;
+  }
+  .name{
+
+   position: relative;
+   margin-top: 2em;
+   margin-right: 20em;
+  float: right;
+  }
+  .username {
+   color: #C70039;
+   font-size: 0.7em;
+  }
+  .user{
+  position: relative;
+  top: 4em;
+   float: left;
+  }
+  .user img{
+   position: relative;
+   top: -4em;
+   margin-left: -1.4em;
+  float: left;
+   width: 13em;
+  height: 13em;
+  }
+  .profile ul{
+     list-style-type: circle;
+
+  }
+  .projs{
+  float: left;
+   clear: both;
+  }
+  #central img{
+   float: left;
+  }
+  .projs img{
+   margin-left: 5em;
+  }
+  #central p{
+   float: left;
+   margin-right: 0.2em;
+  }
+
+  </style>
+<!------Style----------->
+
+</head>
+
+<!------Body----------->
+<body>
+
+  <!------Header----------->
+  <header>
+    <div class="row">
+      
+      <!------NavBar----------->
+      <div class="navbar col-12">
+        <div class="webname col-m-12 col-8">
+          <h1>Codether</h1>
+        </div>
+        <ul class=" col-m-12 col-4">
+          <li>
+            <a href="codether.html">Home</a>
+          </li>
+          <li>
+            <a href="codether.html#aboutsect">About</a>
+          </li>
+          <li>
+            <a href="register.html">Register</a>
+          </li>
+          <li>
+            <a href="signin.html">Log In</a>
+          </li>
+          <li>
+            <a href="codether.html#contactsect">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!--------Profile------->
+  <div class="profile row col-m-12 col-10">
+
+    <div class="col-m-12 col-11 userside">
+      <h1 class="name col-3 col-m-3">Edward Snowden<br>
+      <span class="username">@snowden404</span></h1>
+      <div class=" user col-2 col-m-2">
+        <img src="user1.png">
+        <hr>
+        <h3>Full Stack Developer</h3>
+        <hr>
+        <h4>About</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.incididunt ut labore et dolore magna aliqua.</p>
+        <div class="interest">
+          <h4>Interests</h4>
+          <ul>
+            <li>Artifial Intelligence</li>
+            <li>Machine Learning</li>
+            <li>Big Data</li>
+          </ul>
+        </div>
+      </div>
+      <div class=" col-9 col-m-10" id="central">
+        <h2>Projects</h2>
+        <hr>
+        <br>
+        <br>
+        <div class="mproj">
+          <div class="projs">
+            <a href="editor.html"><img src="sched.png"></a>
+            <p>Project 1</p> <a href="editor.html"><img src="sched.png"></a>
+            <p>Project 2</p>
+          </div>
+          <div class="projs">
+             <a href="editor.html"><img src="sched.png"></a>
+            <p>Project 3
+            </p> <a href="editor.html"><img src="sched.png"></a>
+            <p>Project 4</p>
+          </div>
+        </div>
+        <div style="clear: both;">
+          <br>
+        </div>
+       
+      </div>
+      <div class="col-9" id="detail" style="border:0.1em solid gray;color: white;">
+        <h3>Skill</h3>
+        <ul>
+          <li>Web Development</li>
+          <li>Database Management</li>
+          <li>Graphic Design</li>
+          <li>Android Development</li>
+        </ul>
+        <h3>Language</h3>
+        <ul>
+          <li>HTML/CSS</li>
+          <li>Javascript</li>
+          <li>SQL</li>
+          <li>Python</li>
+          <li>C/C++</li>
+          <li>Ruby</li>
+        </ul>
+        <h3>Software</h3>
+        <ul>
+          <li>Matlab</li>
+          <li>Visual Studio</li>
+          <li>Eclipse</li>
+          <li>Android Studio</li>
+          <li>Adobe Photoshop</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!------Footer----------->
+  <footer class="col-12 col-m-12" id="contactsect">
+    <div class="row">
+      <h1>Contact Us</h1>
+
+        <!------Table1----------->
+      <div class=" col-8 tab1">
+        <table>
+          <tr>
+            <td><img src="add.png"></td>
+            <td>Silicon Valley<br>
+            California, USA</td>
+          </tr>
+          <tr>
+            <td><img src="cont.png"></td>
+            <td>408-920-5006</td>
+          </tr>
+          <tr>
+            <td><img src="email.png"></td>
+            <td>fzulfiqar@codether.co.uk</td>
+          </tr>
+        </table>
+      </div>
+
+        <!------Table2----------->
+      <div class=" col-4 tab2">
+        <table>
+          <tr>
+            <td><img src="fb.png"></td>
+            <td>codether@facebook</td>
+          </tr>
+          <tr>
+            <td><img src="twi.png"></td>
+            <td>codether@twitter</td>
+          </tr>
+          <tr>
+            <td><img src="link.png"></td>
+            <td>codether@linkedin</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

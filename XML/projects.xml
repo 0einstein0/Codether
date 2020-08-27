@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE Projects [
+<!ELEMENT Projects (Project*)>
+<!ELEMENT Project (pname,type,lang,dur,desc,team)>
+<!ELEMENT team (member+)>
+<!ELEMENT member (fname,uname)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT uname (#PCDATA)>
+<!ELEMENT pname (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT lang (#PCDATA)>
+<!ELEMENT dur (#PCDATA)>
+<!ELEMENT desc (#PCDATA)>
+<!ELEMENT team (#PCDATA)>
+<!ATTLIST team number CDATA #REQUIRED>
+]>
+<Projects>
+<Project>
+<pname>Facebook</pname>
+<type>Web Application</type>
+<lang>Python</lang>
+<dur>06/22/2020</dur>
+<desc>A Social Networking Website</desc>
+<team number="2">
+<member>
+	<fname>Mark</fname>
+	<uname>@zuck123</uname>
+</member>
+<member>
+	<fname>Andrew</fname>
+	<uname>@collum</uname>
+</member>
+</team>
+</Project>
+
+<Project>
+<pname>Maria Kart</pname>
+<type>Game</type>
+<lang>C++</lang>
+<dur>03/18/2020</dur>
+<desc>A Racing Video Game</desc>
+<team number="3">
+<member>
+	<fname>Shigeru</fname>
+	<uname>@shiggy03</uname>
+</member>
+<member>
+	<fname>Takashi</fname>
+	<uname>@tezzz</uname>
+</member>
+<member>
+	<fname>Iwata</fname>
+	<uname>@iwatt</uname>
+</member>
+</team>
+</Project>
+</Projects>

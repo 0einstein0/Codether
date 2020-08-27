@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE Registrations [
+<!ELEMENT Registrations (Registration*)>
+<!ELEMENT Registration (fname,lname,uname,email,psw,repeat-psw)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT uname (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT psw (#PCDATA)>
+<!ELEMENT repeat-psw (#PCDATA)>
+<!ATTLIST uname id CDATA #REQUIRED>
+]>
+<Registrations>
+<Registration>
+<fname>Edward</fname>
+<lname>Snowden</lname>
+<uname id="1">@snowden404</uname>
+<email>edsowden@gmail.com</email>
+<psw>*******</psw>
+<repeat-psw>*******</repeat-psw>
+</Registration>
+<Registration>
+<fname>Steve</fname>
+<lname>Jobs</lname>
+<uname id="2">@sjobs09</uname>
+<email>steve.job@gmail.com</email>
+<psw>********</psw>
+<repeat-psw>********</repeat-psw>
+</Registration>
+</Registrations>
