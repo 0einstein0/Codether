@@ -1,11 +1,21 @@
 # Codether
 
-Codether is a collaborative coding website to work with your team interactively on a project.
+Codether is a collaborative coding website to work with your team interactively on your projects.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/cc.jpg?raw=true)
+## Things You Can Do
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/cc2.jpg?raw=true)
+* Import projects.
+* Export projects. 
+* Continue from where you left.
+* The platform supports multile programming languages.
+* Editor with multiple themes.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/cc3.jpg?raw=true)
+![alt text](https://github.com/0einstein0/Codether/blob/master/cc.JPG?raw=true)
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/cc4.jpg?raw=true)
+![alt text](https://github.com/0einstein0/Codether/blob/master/cc1.JPG?raw=true)
+
+![alt text](https://github.com/0einstein0/Codether/blob/master/cc3.JPG?raw=true)
+
+![alt text](https://github.com/0einstein0/Codether/blob/master/cc5.JPG?raw=true)
+
+![alt text](https://github.com/0einstein0/Codether/blob/master/cc4.JPG?raw=true)
