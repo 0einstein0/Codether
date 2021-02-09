@@ -1,5 +1,4 @@
 # Codether
-
 Codether is a collaborative coding website to work with your team interactively on your projects.
 
 ## Things You Can Do
